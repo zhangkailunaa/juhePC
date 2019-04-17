@@ -1,0 +1,1661 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/life.css">
+</head>
+<body>
+<!-- 顶部导航条开始 -->
+<div class="index-header">
+    <div class="wrap">
+        <div class="lg-name">
+            <div class="lg-txt">聚合集团旗下全渠道电商平台</div>
+            <b class="line"></b>
+        </div>
+        <div class="web-nav">
+            <a href="javascript:void(0);">
+                <span>网站导航</span>
+                <i></i>
+            </a>
+            <div class="web-nav-show">
+                <ul>
+                    <li>
+                        <a href="javascript:void(0);">百联集团官网</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);">安付宝网</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);">第一医药</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);">OK会员卡专区</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="header-message">
+            <div class="message-dot">•</div>
+            <a href="javascript:void(0);">消息</a>
+        </div>
+        <div class="header-right">
+            <ul>
+                <li class="header-not-login">
+                    <div>
+                        <a href="login.html" class="header-login-btn">
+                            <i></i>
+                            <span>请登录</span>
+                        </a>
+                        <a href="javascript:void(0);" class="header-register-btn">注册</a>
+                    </div>
+                    <b class="line"></b>
+                </li>
+                <li class="header-login-in">
+                    <a href="javascript:void(0);" target="_blank">
+                        <i>Hi，</i>
+                        <span class="member_name"></span>
+                    </a>
+                    <a href="javascript:void(0);">退出</a>
+                </li>
+                <li>
+                    <div class="header-right-box">
+                        <a href="javascript:void(0);">我的订单</a>
+                        <b class="line"></b>
+                    </div>
+                </li>
+                <li>
+                    <div class="header-right-box header-myjuhe">
+                        <a href="javascript:void(0);">
+                            <span>我的聚合</span>
+                            <i></i>
+                        </a>
+                        <b class="line"></b>
+                        <div class="header-myjuhe-hide">
+                            <ul>
+                                <li>
+                                    <a target="_blank" href="javascript:void(0);">我的订单</a>
+                                </li>
+                                <li>
+                                    <a target="_blank" href="javascript:void(0);">我的评价</a>
+                                </li>
+                                <li>
+                                    <a target="_blank" href="javascript:void(0);">我的积分</a>
+                                </li>
+                                <li>
+                                    <a target="_blank" href="javascript:void(0);">我的收藏</a>
+                                </li>
+                                <li>
+                                    <a target="_blank" href="javascript:void(0);">我的优惠券</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="header-right-box header-myjuhe">
+                        <a href="index.html">
+                            <span>客户服务</span>
+                            <i></i>
+                        </a>
+                        <b class="line"></b>
+                        <div class="header-myjuhe-hide">
+                            <ul>
+                                <li>
+                                    <a target="_blank" href="in">在线客服</a>
+                                </li>
+                                <li>
+                                    <a target="_blank" href="in">帮助中心</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="header-right-box header-myjuhe">
+                        <a href="in">
+                            <span>掌上聚合</span>
+                            <i></i>
+                        </a>
+                        <b class="line"></b>
+                        <div class="palm-show">
+                            <div class="palm-item">
+                                <div class="palm-item-img">
+                                    <img src="images/public/1807592795.jpg">
+                                </div>
+                                <p class="palm-item-title">聚合微信</p>
+                                <p class="palm-item-message">扫一扫关注</p>
+                            </div>
+                            <div class="palm-item">
+                                <span class="palm-item-img">
+                                <img src="images/public/1807592795.jpg">
+                            </span>
+                                <div class="palm-item-line">
+                                    <span class="palm-item-title">聚合APP</span>
+                                </div>
+                                <div class="palm-item-line">
+                                    <span class="palm-item-message2">手机购物更方便</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">购物车</a>
+                    <b class="line"></b>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- 顶部导航条结束 -->
+<!-- search部分开始 -->
+<div class="logo">
+    <div class="wrap clearfix">
+        <div class="head-logo">
+            <div class="left-logo">
+                <a href="index.html">
+                    <img src="img/logo-left.png" alt="">
+                </a>
+            </div>
+            <div class="right-logo">
+                <a href="index.html">
+                    <img src="img/logo-right.png" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="head-search">
+            <div class="search-top">
+                <div class="search-wrap">
+                    <div class="search-cou">
+                        <input type="text" class="input" value="火龙果">
+                    </div>
+                </div>
+                <div class="seach-font">
+                    <button class="btn">搜索</button>
+                </div>
+            </div>
+            <div class="search-bottom clearfix">
+                <a href="index.html">mate20</a>
+                <span>|</span>
+                <a href="index.html">surface&nbspgo</a>
+                <span>|</span>
+                <a href="index.html">咖啡</a>
+                <span>|</span>
+                <a href="index.html">雅士兰黛</a>
+                <span>|</span>
+                <a href="index.html">面膜</a>
+                <span>|</span>
+                <a href="index.html">保温杯</a>
+                <span>|</span>
+                <a href="index.html">洗发水</a>
+                <span>|</span>
+                <a href="index.html">卫生纸</a>
+                <span>|</span>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- search结束 -->
+<!-- nav部分 -->
+<div class="nav clearfix">
+            <div class="wrap"> 
+                <div class="nav-left">
+                    <div class="nav-left-all">
+                        <a href="index.html" class="commodity">所有商品分类</a>
+                            <i></i>
+                    </div>
+                </div>
+                <div class="nav-right">
+                        <ul class="nav-right-ul">
+<<<<<<< .mine
+                            <li><a href="index.html">首页</a></li>
+                            <li><a href="Life.html">生活用品</a></li>
+                            <li><a href="24H.html">24H百货</a></li>
+                            <li><a href="index.html">全球购</a></li>
+                            <li><a href="index.html">精品闪购</a></li>
+                            <li><a href="channelBuy.html">电器城</a></li>
+                            <li><a href="channelBuy.html">礼品卡</a></li>
+||||||| .r153
+                            <li><a href="">首页</a></li>
+                            <li><a href="">生活用品</a></li>
+                            <li><a href="">24H百货</a></li>
+                            <li><a href="">全球购</a></li>
+                            <li><a href="">精品闪购</a></li>
+                            <li><a href="">电器城</a></li>
+                            <li><a href="">礼品卡</a></li>
+=======
+                            <li><a href="index.html">首页</a></li>
+                            <li><a href="Life.html">生活用品</a></li>
+                            <li><a href="24H.html">24H百货</a></li>
+                            <li><a href="">全球购</a></li>
+                            <li><a href="">精品闪购</a></li>
+                            <li><a href="">电器城</a></li>
+                            <li><a href="">礼品卡</a></li>
+>>>>>>> .r165
+                        </ul>
+                </div>
+            </div>
+                
+</div>
+<div class="head-banner clearfix">
+            <ul class="banner-ul ">
+                <li>
+                    <div class="banner-li">
+                        <div class="banner-cou">
+                            <a href="">生鲜食品 冷冻速食</a>
+                        </div>
+                    </div>
+                    <div class="li-show">
+                        <dl class="dl-show">
+                            <dd>
+                                <div class="dd-div">
+                                    <a href="">
+                                        新鲜水果</a>
+                                    </div>
+                                    <div class="fruits">
+                                        <a href="" target="_blank" class="fruit">
+                                            进口水果</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            柑/桔/橙/柚</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            苹果/蛇果</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            国产水果</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            奇异果/猕猴桃</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            李子/布林</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            热带水果</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            礼盒/家庭装</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            梨</a>
+                                </div>
+                            </dd>
+                            <dd>
+                                <div class="dd-div">
+                                <a href="">
+                                    精选肉类</a>
+                                </div>
+                                <div class="fruits">
+                                    <a href="" target="_blank" class="fruit">
+                                        羊肉</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        牛肉</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        牛排</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        猪肉</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        腌腊制品</a>
+                                </div>
+                            </dd>
+                            <dd>
+                                <div class="dd-div">
+                                <a href="">
+                                    海鲜水产</a>
+                                </div>
+                                <div class="fruits">
+                                    <a href="" target="_blank" class="fruit">
+                                        冰鲜水产</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        海鲜</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        三文鱼/鳕鱼</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        海参/鲍鱼</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        水产制品</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        河鲜</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        鱼类</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        虾类</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        蟹类</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        贝类</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        墨鱼/鱿鱼</a>
+                                    </div>
+                            </dd>
+                            <dd>
+                                <div class="dd-div">
+                                <a href="">
+                                    家禽蛋品</a>
+                                </div>
+                                <div class="fruits">
+                                    <a href="" target="_blank" class="fruit">
+                                        鸡</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        鸭</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        鸽</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        鲜蛋</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        皮蛋/咸蛋</a>
+                                    </div>
+                            </dd>
+                        </dl>
+                        <dl class="dl-show">
+                                <dd>
+                                    <div class="dd-div">
+                                        <a href="">
+                                            速冻点心</a>
+                                        </div>
+                                        <div class="fruits">
+                                            <a href="" target="_blank" class="fruit">
+                                                水饺/锅贴</a>
+                                            <a href="" target="_blank" class="fruit">
+                                                混沌/云吞</a>
+                                            <a href="" target="_blank" class="fruit">
+                                            包子/馒头</a>
+                                            <a href="" target="_blank" class="fruit">
+                                                小笼/烧麦</a>
+                                            <a href="" target="_blank" class="fruit">
+                                                点心/饼干</a>
+                                            <a href="" target="_blank" class="fruit">
+                                                虾饺/蒸饺</a>
+                                            <a href="" target="_blank" class="fruit">
+                                                汤圆/小圆子</a>
+                                    </div>
+                                </dd>
+                                <dd>
+                                    <div class="dd-div">
+                                    <a href="">
+                                        方便素食</a>
+                                    </div>
+                                    <div class="fruits">
+                                        <a href="" target="_blank" class="fruit">
+                                            方便菜肴</a>
+                                        <a href="" target="_blank" class="fruit">
+                                          速冻蔬菜</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            米面制品</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            泥螺醉蟹</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            炸烤制品</a>
+                                    </div>
+                                </dd>
+                                <dd>
+                                    <div class="dd-div">
+                                    <a href="">
+                                        火锅食品</a>
+                                    </div>
+                                    <div class="fruits">
+                                        <a href="" target="_blank" class="fruit">
+                                            丸类</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            牛羊肉类</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            蔬菜类</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            火锅胶/肠水产品</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            豆制品</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            火锅底料</a>
+                                    </div>
+                                </dd>
+                                <dd>
+                                    <div class="dd-div">
+                                    <a href="">
+                                    乳品烘焙</a>
+                                    </div>
+                                    <div class="fruits">
+                                        <a href="" target="_blank" class="fruit">
+                                            低温鲜奶</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            奶酪/奶油</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            黄油</a>
+                                        <a href="" target="_blank" class="fruit">
+                                        常温奶</a>
+                                    </div>
+                                </dd>
+                            </dl>
+                    </div>
+                </li>
+                <li>
+                    <div class="banner-li">
+                        <div class="banner-cou">
+                            <a href="">粮油副食 厨房调味</a>
+                        </div>
+                    </div>
+                    <div class="li-show">
+                        <dl class="dl-show">
+                            <dd>
+                                <div class="dd-div">
+                                    <a href="">
+                                        食用油</a>
+                                </div>
+                                <div class="fruits">
+                                    <a href="" target="_blank" class="fruit">
+                                        芥花/菜籽油</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        玉米/稻米油</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        茶油/其他油</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        花生/大豆油</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        橄榄/葡萄籽油</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        葵花籽油/调和油</a>
+                                </div>
+                            </dd>
+                            <dd>
+                                <div class="dd-div">
+                                <a href="">
+                                    米面杂粮</a>
+                                </div>
+                                <div class="fruits">
+                                    <a href="" target="_blank" class="fruit">
+                                        粉丝/粉条</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        大米</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        面粉</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        杂粮</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        面条/挂面</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        意大利面</a>
+                                </div>
+                            </dd>
+                            <dd>
+                                <div class="dd-div">
+                                <a href="">
+                                    南北干货</a>
+                                </div>
+                                <div class="fruits">
+                                    <a href="" target="_blank" class="fruit">
+                                        枣子</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        核桃/桂圆干</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        枸杞</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        竹笋</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        香菇</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        黑木耳/银耳</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        菌菇类</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        海产干货</a>
+                                </div>
+                            </dd>
+                            <dd>
+                                <div class="dd-div">
+                                <a href="">
+                                    方便食品</a>
+                                </div>
+                                <div class="fruits">
+                                    <a href="" target="_blank" class="fruit">
+                                        方便面</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        八宝粥</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        饭/粥/汤</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        米粉</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        火腿肠</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        腐乳</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        榨菜/酱菜</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        水产/肉罐头</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        水果/蔬菜罐头</a>
+                                </div>
+                            </dd>
+                        </dl>
+                        <dl class="dl-show">
+                            <dd>
+                                <div class="dd-div">
+                                    <a href="">
+                                        调味汁</a>
+                                    </div>
+                                <div class="fruits">
+                                    <a href="" target="_blank" class="fruit">
+                                        酱油</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        醋</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        香油</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        料酒</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        耗油</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        鼓油</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        其他调味汁</a>
+                                </div>
+                            </dd>
+                            <dd>
+                                <div class="dd-div">
+                                <a href="">
+                                    调味酱</a>
+                                </div>
+                                <div class="fruits">
+                                    <a href="" target="_blank" class="fruit">
+                                        辣椒酱</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        豆瓣酱</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        番茄</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        花生</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        果酱</a>
+                                </div>
+                            </dd>
+                            <dd>
+                                <div class="dd-div">
+                                <a href="">
+                                    调味料</a>
+                                </div>
+                                <div class="fruits">
+                                    <a href="" target="_blank" class="fruit">
+                                        食盐</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        糖</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        鸡精</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        咖喱</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        调味粉</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        香辛大料</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        火锅底料</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        汤料</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        淀粉</a>
+                                </div>
+                            </dd>
+                        </dl>
+                    </div>
+                </li>
+                <li>
+                    <div class="banner-li">
+                        <div class="banner-cou">
+                            <a href="">休闲零食 酒饮冲调</a>
+                        </div>
+                    </div>
+                    <div class="li-show">
+                            <dl class="dl-show">
+                                <dd>
+                                    <div class="dd-div">
+                                        <a href="">
+                                            饼干糕点</a>
+                                    </div>
+                                    <div class="fruits">
+                                        <a href="" target="_blank" class="fruit">
+                                            饼干</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            曲奇</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            威化</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            蛋卷</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            蛋糕</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            传统糕点</a>
+                                    </div>
+                                </dd>
+                                <dd>
+                                    <div class="dd-div">
+                                    <a href="">
+                                        膨化零食</a>
+                                    </div>
+                                    <div class="fruits">
+                                        <a href="" target="_blank" class="fruit">
+                                            薯片/薯条</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            米饼/米卷</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            虾片/虾条</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            锅巴/小食</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            爆米花</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            海苔</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            肉干</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            禽类</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            鱼干</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            豆干</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            其他小食物</a>
+                                    </div>
+                                </dd>
+                                <dd>
+                                    <div class="dd-div">
+                                    <a href="">
+                                        坚果蜜饯</a>
+                                    </div>
+                                    <div class="fruits">
+                                        <a href="" target="_blank" class="fruit">
+                                            瓜子</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            花生</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            夏威夷果</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            坚果</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            梅</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            山楂</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            葡萄干</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            蜜饯</a>
+                                    </div>
+                                </dd>
+                                <dd>
+                                    <div class="dd-div">
+                                    <a href="">
+                                        糖果巧克力</a>
+                                    </div>
+                                    <div class="fruits">
+                                        <a href="" target="_blank" class="fruit">
+                                            口香糖</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            润喉糖</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            硬糖</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            软糖</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            果冻布丁</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            其他糖果</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            巧克力</a>
+                                    </div>
+                                </dd>
+                            </dl>
+                            <dl class="dl-show">
+                                <dd>
+                                    <div class="dd-div">
+                                        <a href="">
+                                            饮料饮品</a>
+                                        </div>
+                                    <div class="fruits">
+                                        <a href="" target="_blank" class="fruit">
+                                            苏打水</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            饮用水</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            可乐</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            碳酸饮料</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            果蔬果汁</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            咖啡</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            其他饮品</a>
+                                    </div>
+                                </dd>
+                                <dd>
+                                    <div class="dd-div">
+                                    <a href="">
+                                        牛奶乳品</a>
+                                    </div>
+                                    <div class="fruits">
+                                        <a href="" target="_blank" class="fruit">
+                                            纯牛奶</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            酸奶</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            调味奶</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            豆奶</a>
+                                    </div>
+                                </dd>
+                                <dd>
+                                    <div class="dd-div">
+                                    <a href="">
+                                        中外名酒</a>
+                                    </div>
+                                    <div class="fruits">
+                                        <a href="" target="_blank" class="fruit">
+                                            白酒</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            黄酒</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            啤酒</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            葡萄酒</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            果酒</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            洋酒</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            滋补酒</a>
+                                    </div>
+                                </dd>
+                            </dl>
+                    </div>
+                </li>
+                <li>
+                    <div class="banner-li">
+                        <div class="banner-cou">
+                            <a href="">美妆洗护 个人护理</a>
+                        </div>
+                    </div>
+                    <div class="li-show">
+                            <dl class="dl-show">
+                                <dd>
+                                    <div class="dd-div">
+                                        <a href="">
+                                            男士护理</a>
+                                    </div>
+                                    <div class="fruits">
+                                        <a href="" target="_blank" class="fruit">
+                                            护肤</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            洗发</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            剃须</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            洁面</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            男士香水</a>
+                                    </div>
+                                </dd>
+                                <dd>
+                                    <div class="dd-div">
+                                    <a href="">
+                                        女性护理</a>
+                                    </div>
+                                    <div class="fruits">
+                                        <a href="" target="_blank" class="fruit">
+                                            日用</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            夜用</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            护垫</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            组合套装</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            女性洗液</a>
+                                    </div>
+                                </dd>
+                                <dd>
+                                    <div class="dd-div">
+                                    <a href="">
+                                        美发护发</a>
+                                    </div>
+                                    <div class="fruits">
+                                        <a href="" target="_blank" class="fruit">
+                                            洗发水</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            护发素</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            洗护发套装</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            护发精油</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            发膜</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            头发造型</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            染发</a>
+                                    </div>
+                                </dd>
+                                <dd>
+                                    <div class="dd-div">
+                                    <a href="">
+                                        沐浴清洁</a>
+                                    </div>
+                                    <div class="fruits">
+                                        <a href="" target="_blank" class="fruit">
+                                            沐浴露</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            香皂</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            浴盆</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            洗手液</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            棉签</a>
+                                    </div>
+                                </dd>
+                            </dl>
+                            <dl class="dl-show">
+                                <dd>
+                                    <div class="dd-div">
+                                        <a href="">
+                                            口腔护理</a>
+                                        </div>
+                                    <div class="fruits">
+                                        <a href="" target="_blank" class="fruit">
+                                            牙膏</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            牙刷</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            电动牙刷</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            冲牙器</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            牙线</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            漱口水</a>
+                                    </div>
+                                </dd>
+                                <dd>
+                                    <div class="dd-div">
+                                    <a href="">
+                                        身体护理</a>
+                                    </div>
+                                    <div class="fruits">
+                                        <a href="" target="_blank" class="fruit">
+                                            身体乳</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            脱毛</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            护手霜</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            美体</a>
+                                    </div>
+                                </dd>
+                                <dd>
+                                    <div class="dd-div">
+                                    <a href="">
+                                        面部护理</a>
+                                    </div>
+                                    <div class="fruits">
+                                        <a href="" target="_blank" class="fruit">
+                                            护肤套装</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            乳液</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            洁面</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            面膜</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            防嗮</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            润唇膏</a>
+                                    </div>
+                                </dd>
+                                <dd>
+                                    <div class="dd-div">
+                                    <a href="">
+                                        彩妆</a>
+                                    </div>
+                                    <div class="fruits">
+                                        <a href="" target="_blank" class="fruit">
+                                            唇部彩妆</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            眼部彩妆</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            底妆</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            眉笔</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            指甲油</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            化妆镜</a>
+                                    </div>
+                                </dd>
+                            </dl>
+                    </div>
+                </li>
+                <li>
+                    <div class="banner-li">
+                        <div class="banner-cou">
+                            <a href="">家庭清洁 生活用纸</a>
+                        </div>
+                    </div>
+                    <div class="li-show">
+                            <dl class="dl-show">
+                                <dd>
+                                    <div class="dd-div">
+                                        <a href="">
+                                            纸品湿巾</a>
+                                    </div>
+                                    <div class="fruits">
+                                        <a href="" target="_blank" class="fruit">
+                                            抽纸</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            卷筒纸</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            手帕纸</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            厨房用纸</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            平板卫生纸</a>
+                                    </div>
+                                </dd>
+                                <dd>
+                                    <div class="dd-div">
+                                    <a href="">
+                                        衣物清洁</a>
+                                    </div>
+                                    <div class="fruits">
+                                        <a href="" target="_blank" class="fruit">
+                                            洗衣液</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            洗衣粉</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            漂白</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            洗衣皂</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            其他洗衣</a>
+                                    </div>
+                                </dd>
+                                <dd>
+                                    <div class="dd-div">
+                                    <a href="">
+                                        厨卫清洁</a>
+                                    </div>
+                                    <div class="fruits">
+                                        <a href="" target="_blank" class="fruit">
+                                            洗洁精</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            消毒液</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            油污净</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            管道疏通</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            洁厕剂</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            卫浴清洁</a>
+                                    </div>
+                                </dd>
+                                <dd>
+                                    <div class="dd-div">
+                                    <a href="">
+                                        居家清洁</a>
+                                    </div>
+                                    <div class="fruits">
+                                        <a href="" target="_blank" class="fruit">
+                                            玻璃清洁</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            地板清洁</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            家电清洁</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            防潮</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            空气清新</a>
+                                    </div>
+                                </dd>
+                            </dl>
+                            <dl class="dl-show">
+                            <dd>
+                                <div class="dd-div">
+                                    <a href="">
+                                        清洁工具</a>
+                                    </div>
+                                <div class="fruits">
+                                    <a href="" target="_blank" class="fruit">
+                                        百洁布</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        抹布</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        清洁手套</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        钢丝球</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        拖把工具</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        除尘工具</a>
+                                </div>
+                            </dd>
+                            <dd>
+                                <div class="dd-div">
+                                <a href="">
+                                    卫浴用品</a>
+                                </div>
+                                <div class="fruits">
+                                    <a href="" target="_blank" class="fruit">
+                                        浴室防滑垫</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        肥皂盒</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        脸盘</a>
+                                </div>
+                            </dd>
+                            <dd>
+                                <div class="dd-div">
+                                <a href="">
+                                    一次性用品</a>
+                                </div>
+                                <div class="fruits">
+                                    <a href="" target="_blank" class="fruit">
+                                        保鲜袋</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        保鲜膜</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        垃圾袋</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        一次性餐具</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        牙签</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        手套</a>
+                                </div>
+                            </dd>
+                        </dl>
+                    </div>
+                </li>
+                <li>
+                    <div class="banner-li">
+                        <div class="banner-cou">
+                            <a href="">居家日用 收纳洗嗮</a>
+                        </div>
+                    </div>
+                    <div class="li-show">
+                            <dl class="dl-show">
+                                <dd>
+                                    <div class="dd-div">
+                                        <a href="">
+                                            内衣家纺</a>
+                                    </div>
+                                    <div class="fruits">
+                                        <a href="" target="_blank" class="fruit">
+                                            毛巾</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            袜子</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            内衣裤</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            家纺布艺</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            床上用品</a>
+                                    </div>
+                                </dd>
+                                <dd>
+                                    <div class="dd-div">
+                                    <a href="">
+                                        收纳洗嗮</a>
+                                    </div>
+                                    <div class="fruits">
+                                        <a href="" target="_blank" class="fruit">
+                                            收纳层架</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            收纳盒</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            卫浴洗纳</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            洗嗮用具</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            杂物收纳</a>
+                                    </div>
+                                </dd>
+                                <dd>
+                                    <div class="dd-div">
+                                    <a href="">
+                                        居家日用</a>
+                                    </div>
+                                    <div class="fruits">
+                                        <a href="" target="_blank" class="fruit">
+                                            雨伞雨具</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            口罩</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            保暖用品</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            纸巾盒</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            杯垫</a>
+                                    </div>
+                                </dd>
+                                <dd>
+                                    <div class="dd-div">
+                                    <a href="">
+                                        文体五金</a>
+                                    </div>
+                                    <div class="fruits">
+                                        <a href="" target="_blank" class="fruit">
+                                            学生工具</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            办公文艺</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            家装建材</a>
+                                    </div>
+                                </dd>
+                            </dl>
+                            <dl class="dl-show">
+                            <dd>
+                                <div class="dd-div">
+                                    <a href="">
+                                        汽车用品</a>
+                                    </div>
+                                <div class="fruits">
+                                    <a href="" target="_blank" class="fruit">
+                                        汽车清洗</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        汽车内饰</a>
+                                </div>
+                            </dd>
+                            <dd>
+                                <div class="dd-div">
+                                <a href="">
+                                    宠物生活</a>
+                                </div>
+                                <div class="fruits">
+                                    <a href="" target="_blank" class="fruit">
+                                        狗粮</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        猫粮</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        宠物用品</a>
+                                </div>
+                            </dd>
+                        </dl>
+                    </div>
+                </li>
+                <li>
+                    <div class="banner-li">
+                        <div class="banner-cou">
+                            <a href="">餐厨用具 家用电器</a>
+                        </div>
+                    </div>
+                    <div class="li-show">
+                            <dl class="dl-show">
+                                <dd>
+                                    <div class="dd-div">
+                                        <a href="">
+                                            餐具水具</a>
+                                    </div>
+                                    <div class="fruits">
+                                        <a href="" target="_blank" class="fruit">
+                                            保温杯</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            筷子</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            滤水壶</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            茶具</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            刀叉</a>
+                                    </div>
+                                </dd>
+                                <dd>
+                                    <div class="dd-div">
+                                    <a href="">
+                                        厨具锅具</a>
+                                    </div>
+                                    <div class="fruits">
+                                        <a href="" target="_blank" class="fruit">
+                                            锅具</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            烧水壶</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            厨房收纳</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            置物架</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            烘焙用具</a>
+                                    </div>
+                                </dd>
+                                <dd>
+                                    <div class="dd-div">
+                                    <a href="">
+                                        个户健康</a>
+                                    </div>
+                                    <div class="fruits">
+                                        <a href="" target="_blank" class="fruit">
+                                            电吹风</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            剃须刀</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            按摩椅</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            直发器</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            冲牙器</a>
+                                    </div>
+                                </dd>
+                                <dd>
+                                    <div class="dd-div">
+                                    <a href="">
+                                        生活电器</a>
+                                    </div>
+                                    <div class="fruits">
+                                        <a href="" target="_blank" class="fruit">
+                                            取暖器</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            除湿器</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            电话机</a>
+                                    </div>
+                                </dd>
+                            </dl>
+                            <dl class="dl-show">
+                            <dd>
+                                <div class="dd-div">
+                                    <a href="">
+                                        厨房小家电</a>
+                                    </div>
+                                <div class="fruits">
+                                    <a href="" target="_blank" class="fruit">
+                                        电饭煲</a>
+                                    <a href="" target="_blank" class="fruit">
+                                        电水壶</a>
+                                </div>
+                            </dd>
+                        </dl>
+                    </div>
+                </li>
+                <li>
+                    <div class="banner-li">
+                        <div class="banner-cou">
+                            <a href="">母婴专区 营养保健</a>
+                        </div>
+                    </div>
+                    <div class="li-show">
+                            <dl class="dl-show">
+                                <dd>
+                                    <div class="dd-div">
+                                        <a href="">
+                                            母婴专区</a>
+                                    </div>
+                                    <div class="fruits">
+                                        <a href="" target="_blank" class="fruit">
+                                            母婴奶粉</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            副食营养</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            婴儿湿巾</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            纸尿裤</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            成人尿裤</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            宝宝洗护</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            玩具</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            孕妈专区</a>
+                                    </div>
+                                </dd>
+                                <dd>
+                                    <div class="dd-div">
+                                    <a href="">
+                                        营养保健</a>
+                                    </div>
+                                    <div class="fruits">
+                                        <a href="" target="_blank" class="fruit">
+                                            滋补养生</a>
+                                        <a href="" target="_blank" class="fruit">
+                                            膳食补充</a>
+                                    </div>
+                                </dd>
+                        </dl>
+                    </div>
+                </li>
+            </ul>
+            <div class="banner clearfix">
+                <div class="banner-coutan clearfix">
+                    <ul class="banner-pic clearfix">
+                        <li>
+                            <a href=""><img src="img/banner1.jpg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="img/banner2.jpg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="img/banner3.jpg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="img/banner1.jpg" alt=""></a>
+                        </li>
+                    </ul>
+                    <ul class="banner-circle">
+                        <li>
+                            <span href="">1</span>
+                        </li>
+                        <li>
+                            <span href="">2</span>
+                        </li>
+                        <li>
+                            <span href="">3</span>
+                        </li>
+                    </ul>
+                    <ul class="left-right">
+                        <li class="left">
+                        </li>
+                        <li class="right">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+</div>
+<!-- nav结束 -->
+<!-- 内容开始 -->
+<div class="content">
+    <div class="con-wrap">
+        <ul class="daily-adv">
+            <li class="adv-1">
+                <a href="">
+                    <img src="img/adv-1.jpg" alt="">
+                </a>
+                <div class="con-mask"></div>
+            </li>
+            <li class="adv-2">
+                <a href="">
+                    <img src="img/adv-2.png" alt="">
+                </a>
+                <div class="con-mask"></div>
+            </li>
+            <li class="adv-2">
+                <a href="">
+                    <img src="img/adv-3.png" alt="">
+                </a>
+                <div class="con-mask"></div>
+            </li>
+        </ul>
+        <div class="adv-hotcake">
+            <div class="hotcake-wrap">
+                <div class="hotcake-left">
+                    <a href="">
+                        <img src="img/hotleft.jpg" alt="">
+                    </a>
+                </div>
+                <div class="hotcake-top">
+                    <a href="">
+                        <img src="img/hottop1.jpg" alt=""></a>
+                    <a href="">
+                        <img src="img/hottop2.jpg" alt="">
+                    </a>
+                </div>
+                <div class="hotcake-bottom">
+                    <div class="bottom-model">
+                        <div class="model-cou">
+                            <a href="" class="model-top">
+                                新雅 吉祥精品熟食礼盒（提货券）
+                            </a>
+                            <div class="price">
+                                <span class="icon"></span>
+                                <span class="num">
+                                    <i>￥</i> 329.0
+                                </span>
+                            </div>
+                            <a href="" class="bottom-img">
+                                <img src="img/bottom1.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="bottom-model">
+                            <div class="model-cou">
+                            <a href="" class="model-top">
+                                    和酒 大开福五年陈黄酒
+                                </a>
+                                <div class="price">
+                                    <span class="icon"></span>
+                                    <span class="num">
+                                        <i>￥</i> 329.0
+                                    </span>
+                                </div>
+                                <a href="" class="bottom-img">
+                                    <img src="img/bottom1.jpg" alt="">
+                                </a>
+                        </div>
+                    </div>
+                    <div class="bottom-model">
+                        <div class="model-cou">
+                            <a href="" class="model-top">
+                                    德芙 精心之味多种口味巧克力
+                            </a>
+                            <div class="price">
+                                <span class="icon"></span>
+                                <span class="num">
+                                    <i>￥</i> 329.0
+                                </span>
+                            </div>
+                            <a href="" class="bottom-img">
+                                <img src="img/bottom2.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="bottom-model">
+                        <div class="model-cou">
+                        <a href="" class="model-top">
+                                金纺 衣物护理剂 怡神薰衣草 2.8L
+                            </a>
+                            <div class="price">
+                                <span class="icon"></span>
+                                <span class="num">
+                                    <i>￥</i> 329.0
+                                </span>
+                            </div>
+                            <a href="" class="bottom-img">
+                                <img src="img/bottom4.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ajax clearfix">
+            <div class="out-box  fl1">
+                <img src="img/ljz.gif" alt="" class="ljz">
+            </div>
+            <div class="out-box  fl2">
+                <img src="img/ljz.gif" alt="" class="ljz">
+            </div>
+            <div class="out-box  fl3">
+                <img src="img/ljz.gif" alt="" class="ljz">
+                
+            </div>
+            <div class="out-box  fl4">
+                <img src="img/ljz.gif" alt="" class="ljz">
+            </div>
+            <div class="out-box  fl5">
+                <img src="img/ljz.gif" alt="" class="ljz">
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+<!-- 内容结束 -->
+<!-- 楼层导航  开始 -->
+<div class="floornav">
+    <div class="navcou">
+        <div class="navfirst">生活日用</div>
+        <div class="navsecond">爆款单品</div>
+        <div class="navthird">
+            <i></i>
+            <span class="spanfont"> 生鲜时蔬</span>
+        </div>
+        <div class="navfour">
+            <i></i>
+            <span  class="spanfont">食品饮料</span>
+        </div>
+        <div class="navfif">
+            <i></i>
+            <span  class="spanfont">美容个清</span>
+        </div>
+        <div class="navsix">
+            <i></i>
+            <span  class="spanfont">生活家居</span>
+        </div>
+        <div class="navseven">
+            <i></i>
+            <span  class="spanfont">母婴亲子</span>
+        </div>
+        <div class="navenight">TOP</div>
+    </div>
+</div>
+<!-- 楼层导航  结束 -->
+<!-- 底部部分 -->
+<div class="footer">
+    <div class="footer-top clearfix">
+        <div class="footcenter">
+            <div class="footer-list">
+                <div class="footer-title">
+                    <i class="title-1"></i>
+                    新手入门
+                </div>
+                <ul>
+                    <li>
+                        <a href="">购物流程</a>
+                    </li>
+                    <li>
+                        <a href="">会员介绍</a>
+                    </li>
+                    <li>
+                        <a href="">常见问题</a>
+                    </li>
+                    <li>
+                        <a href="">发票说明</a>
+                    </li>
+                    <li>
+                        <a href="">联系客服</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-list">
+                <div class="footer-title">
+                    <i class="title-2"></i>
+                    配送服务
+                </div>
+                <ul>
+                    <li>
+                        <a href="">配送范围及运费</a>
+                    </li>
+                    <li>
+                        <a href="">配送进度查询</a>
+                    </li>
+                    <li>
+                        <a href="">自提服务</a>
+                    </li>
+                    <li>
+                        <a href="">商品验货与签收</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-list">
+                <div class="footer-title">
+                    <i class="title-3"></i>
+                    支付方式
+                </div>
+                <ul>
+                    <li>
+                        <a href="">货到付款</a>
+                    </li>
+                    <li>
+                        <a href="">在线支付</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-list">
+                <div class="footer-title">
+                    <i class="title-4"></i>
+                    售后服务
+                </div>
+                <ul>
+                    <li>
+                        <a href="">退换货政策</a>
+                    </li>
+                    <li>
+                        <a href="">退换货流程</a>
+                    </li>
+                    <li>
+                        <a href="">退款说明</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-list">
+                <div class="footer-title">
+                    <i class="title-5"></i>
+                    商家支持
+                </div>
+                <ul>
+                    <li>
+                        <a href="">商家入驻</a>
+                    </li>
+                    <li>
+                        <a href="">商家规则</a>
+                    </li>
+                    <li>
+                        <a href="">商家常见问题</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+       <div class="bootom-1">
+           <a href="">关于我们</a>
+           <span class="sx">|</span>
+           <a href="">联系我们</a>
+           <span  class="sx">|</span>
+           <a href="">加盟合作</a>
+           <span  class="sx">|</span>
+           <a href="">诚征英才</a>
+           <span  class="sx">|</span>
+           <a href="">友情链接</a>
+           <span  class="sx">|</span>
+           <a href="">新零售合作</a>
+           <span  class="sx">|</span>
+       </div>
+       <div class="bottm-2">
+            百联集团有限公司版权所有 
+           <span class="sx">|</span>
+           客服电话：400-900-8800  
+           <span class="sx">|</span>
+           沪ICP备15028847号
+           <span class="sx">|</span>
+       </div>
+       <a href="" class="bottom-3">互联网药品信息服务资质证书编号：沪-（非营业性）-2016-0044</a>
+       <a href="" class="bottom-4">全渠道增值电信业务经营许可证</a>
+       <div class="bottom-5">
+           <a href="">
+               <img src="img/end1.png" alt="">
+               <span>沪公网安备  31010102002366号</span>
+           </a>
+           <a href="">
+                <img src="img/end2.png" alt="">
+                <span>网购大家评</span>
+            </a>
+            <a href="">
+                <img src="img/end3.png" alt="">
+                <span>上海工商</span>
+            </a>
+            <a href="">
+                <img src="img/end4.png" alt="">
+                <span>经营执照</span>
+            </a>
+       </div>
+    </div>
+</div>
+<!-- 底部结束 -->
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/jquery.lazyload.js"></script>
+<script src="js/left.js"></script>
+</body>
+</html>
